@@ -83,7 +83,6 @@
 .news_header {
     position: sticky;
     background-color: magenta;
-    top: 0%;
     padding: 10px;
     font-size: 50px;
     color: white;
