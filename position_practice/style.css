@@ -1,0 +1,95 @@
+.prebox {
+    position:relative;
+    width: 1800px;
+    height: 1000px;
+}
+
+.scrollbox {
+    position: absolute;
+    margin: 0%;
+    width: 100%;
+    height: 800px;
+    padding: 20px;    
+    outline: 1px solid gray;
+    box-sizing: border-box;
+    overflow: scroll;
+}
+
+.box {
+    position: absolute;
+    margin: 1%;
+    width: 100%;
+    height: 800px;
+    padding: 20px;
+    outline: 1px solid gray;
+}
+
+.squarer, .squareb, .squareg, .squarer1, .squareb1, .squareg1 {
+    width: 80px;
+    height: 80px;
+}
+
+.squarer {
+    position: absolute;
+    outline: 1px solid red;
+    margin: 80px;
+}
+
+.squareb {
+    position: absolute;
+    outline: 1px solid blue;
+    margin: 200px;
+}
+
+.squareg {
+    position: absolute;
+    outline: 1px solid green;
+    margin: 320px;
+}
+
+.squarer1 {
+    position: absolute;
+    background-color: red;
+    margin: 80px;
+}
+
+.squareb1 {
+    position: absolute;
+    background-color: blue;
+    margin: 120px;
+}
+
+.squareg1 {
+    position: absolute;
+    background-color: green;
+    margin: 160px;
+}
+
+.bbb {
+    position: absolute;
+    background-color: aqua;
+    width: 94%;
+    height: 96%;
+    margin-left: 2%;
+}
+
+.power {
+    position: absolute;
+    background-color: white;
+    width: 280px;
+    height: 280px;
+}
+
+.news_header {
+    position: sticky;
+    background-color: magenta;
+    top: 0%;
+    padding: 10px;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+.text {
+    font-size: 40px;
+}
