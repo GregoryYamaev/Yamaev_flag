@@ -19,7 +19,7 @@
     border-radius: 20px;
     border: solid black 2px;
     transition-timing-function: linear;
-    transition-duration: 1s;
+    transition-duration: 0.5s;
     box-shadow: 0 2px 7px grey;
 }
 
@@ -28,7 +28,7 @@
     box-shadow: 0 2px 7px rgba(0,24,108,1);
     border-radius: 20px;
     opacity: 0;
-    transition: opacity 0.5s;
+    transition: 0.5s;
 }
 
 .Button:active {
