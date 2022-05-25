@@ -1,0 +1,60 @@
+.site {
+    background: linear-gradient(180deg, rgba(36,0,0,1) 0%, rgba(121,48,9,1) 80%);
+}
+
+.landing {
+    height: 100vh;
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contentbox {
+    margin-top: 0.75%;
+    margin-right: 4%;
+    justify-content: space-between;
+    width: 400px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+}
+
+.namebox {
+    margin-left: 4%;
+    width: 100px;
+    height: 60px;
+    color: azure;
+    display: flexbox;
+    flex-direction: column;
+}
+
+.title {
+    color: goldenrod;
+    font-size: 20px;
+    text-align: center;
+    font-family: Impact;
+}
+
+.subtitle {
+    color: Gold;
+    font: 10px;
+    text-align: center;
+    font-family: Georgias;
+}
+
+.BoC {
+    width: 100px;
+    height: 60px;
+    color: yellow;
+    font-family: 'Gill Sans';
+    font-size: 15px;
+    text-align: center;
+    text-overflow: hidden;
+}
