@@ -1,0 +1,30 @@
+.Button {
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 42.5%;
+    width: 150px;
+    height: 35px;
+    background:skyblue;
+    font-size: 200%;
+    font-family: Bold;
+    text-align: center;
+    border-radius: 20px;
+    border: solid black 2px;
+    transition-timing-function: linear;
+    transition-duration: 1s;
+    box-shadow: 0 2px 7px grey;
+}
+
+.Button:hover {
+    background: red;
+    box-shadow: rgba(0,24,108,1);
+    border-radius: 20px;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.Button:active {
+    opacity: 1;
+    background: purple;
+    box-shadow: royalblue;
+}
