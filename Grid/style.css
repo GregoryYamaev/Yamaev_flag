@@ -61,7 +61,7 @@ header {
 }
 
 .collage {
-    margin-left: 22.5%;
+    margin: 0px auto;
     width: 600px;
     height: 800px;
     display: grid;
@@ -116,5 +116,11 @@ header {
     grid-area: 1/1/span 2/span 3;
     background-image: url(./assets/gmi/keks.png);
     background-size: 600px 700px;
-    opacity: 0.02;
+    opacity: 0.05;
+}
+
+@media screen and (min-width: 900px) {
+article{
+        display: flex;
+    }
 }
