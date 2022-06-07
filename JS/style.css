@@ -1,0 +1,272 @@
+.site {
+    background: linear-gradient(180deg, rgba(36,0,0,1) 0%, rgba(121,48,9,1) 80%);
+    z-index: 1;
+}
+
+.landing {
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contentbox {
+    margin-top: 0.75%;
+    margin-right: 4%;
+    justify-content: space-between;
+    width: 400px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+}
+
+.namebox {
+    margin-left: 4%;
+    width: 80px;
+    height: 60px;
+    color: azure;
+    display: flexbox;
+    flex-direction: column;
+}
+
+.title {
+    color: goldenrod;
+    font-size: 20px;
+    text-align: center;
+    font-family: Impact;
+}
+
+.subtitle {
+    color: Gold;
+    font: 10px;
+    text-align: center;
+    font-family: Bold;
+}
+
+.BoC {
+    width: 100px;
+    height: 60px;
+    color: yellow;
+    font-family: 'Gill Sans';
+    font-size: 15px;
+    text-align: center;
+    text-overflow: hidden;
+}
+
+.collage {
+    margin: 0px auto;
+    width: 600px;
+    height: 800px;
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: 300px 400px;
+    grid-gap: 30px;
+    align-self: center;
+}
+
+.look, .dog, .yes, .Yes, .YEs, .YES {
+    z-index: 1;
+    border: 5px solid rgba(135,103,27,1);
+}
+
+.look {
+    background-image: url(./assets/gmi/look\ at\ me.png);
+    grid-area: 1/1 / span 1/span 1;
+    background-size: 200px 300px;
+}
+
+.dog {
+    grid-area: 2/1 / span 1 / span 1;
+    background-image: url(./assets/gmi/Dog.png);
+    background-size: 200px 400px
+}
+
+.yes {
+    grid-area: 1/3/span 1/span 1;
+    background-image: url(./assets/gmi/kek\ looking.png);
+    background-size: 200px 300px;
+}
+
+.Yes {
+    grid-area: 2/2/span 1/span 1;
+    background-image: url(./assets/gmi/foot.png);
+    background-size: 200px 400px;
+}
+
+.YEs {
+    grid-area: 1/2/span 1/span 1;
+    background-image: url(./assets/gmi/bud.png);
+    background-size: 200px 300px;
+}
+
+.YES {
+    grid-area: 2/3/span 1/span 1;
+    background-image: url(./assets/gmi/dub.png);
+    background-size: 200px 400px;
+}
+
+.now_u_c {
+    grid-area: 1/1/span 2/span 3;
+    background-image: url(./assets/gmi/keks.png);
+    background-size: 600px 700px;
+    opacity: 0.05;
+}
+
+@keyframes surprise{
+    0% {background-color: red;}
+    14.5% {background-color: orange;}
+    29% {background-color: yellow;}
+    43.5% {background-color: green;}
+    58% {background-color: aqua;}
+    72.5% {background-color: blue;}
+    87% {background-color: purple;}
+    100% {background-color: red;}
+}
+
+.goshabox {
+    z-index: 2;
+    height: 25px;
+    width: 70px;
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    animation: surprise 4s infinite;
+}
+
+@media screen and (max-width: 600px) {    
+    .site {
+        background: linear-gradient(180deg, rgba(36,0,0,1) 0%, rgba(121,48,9,1) 80%);
+        z-index: 1;
+        height: 2400px;
+    }
+    
+    .landing {
+        height: 100%;
+        width: 100%;
+    }
+    
+    header {
+        width: 100%;
+        height: 100px;
+        margin-top: 3%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .contentbox {
+        justify-content: space-between;
+        width: 400px;
+        height: 60px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .namebox {
+        width: 100px;
+        height: 60px;
+        color: azure;
+        display: flexbox;
+        flex-direction: column;
+    }
+    
+    .title {
+        color: goldenrod;
+        font-size: 20px;
+        text-align: center;
+        font-family: Impact;
+    }
+    
+    .subtitle {
+        color: Gold;
+        font: 10px;
+        text-align: center;
+        font-family: Bold;
+    }
+    
+    .BoC {
+        width: 100px;
+        height: 60px;
+        color: yellow;
+        font-family: 'Gill Sans';
+        font-size: 15px;
+        text-align: center;
+        text-overflow: hidden;
+    }
+    
+    .collage {
+        margin: 0px auto;
+        width: 600px;
+        height: 800px;
+        display: grid;
+        grid-template-rows: repeat(3, 300px 400px);
+        grid-template-columns: 200px;
+        grid-gap: 30px;
+        align-self: center;
+    }
+    
+    .look, .dog, .yes, .Yes, .YEs, .YES {
+        z-index: 1;
+        border: 5px solid rgba(135,103,27,1);
+    }
+    
+    .look {
+        background-image: url(./assets/gmi/look\ at\ me.png);
+        grid-area: 1/1 / span 1/span 1;
+        background-size: 200px 300px;
+    }
+    
+    .dog {
+        grid-area: 2/1 / span 1 / span 1;
+        background-image: url(./assets/gmi/Dog.png);
+        background-size: 200px 400px
+    }
+    
+    .yes {
+        grid-area: 3/1/span 1/span 1;
+        background-image: url(./assets/gmi/kek\ looking.png);
+        background-size: 200px 300px;
+    }
+    
+    .Yes {
+        grid-area: 4/1/span 1/span 1;
+        background-image: url(./assets/gmi/foot.png);
+        background-size: 200px 400px;
+    }
+    
+    .YEs {
+        grid-area: 5/1/span 1/span 1;
+        background-image: url(./assets/gmi/bud.png);
+        background-size: 200px 300px;
+    }
+    
+    .YES {
+        grid-area: 6/1/span 1/span 1;
+        background-image: url(./assets/gmi/dub.png);
+        background-size: 200px 400px;
+    }
+    
+    .now_u_c {
+        grid-area: 1/1/span 6/span 1;
+        background-image: url(./assets/gmi/beeg.png);
+        background-size: 100% 2100px;
+        opacity: 0.07;
+    }
+    
+    .goshabox {
+        z-index: 2;
+        height: 15px;
+        width: 70px;
+        background-color: darkgoldenrod;
+        color: white;
+        text-align: center;
+        font-size: 15px;
+    }
+}

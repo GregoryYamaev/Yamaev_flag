@@ -1,0 +1,114 @@
+.box {
+    width: 900px;
+    height: 900px;
+    background-size: 200px 60px;
+    background-image: url(../gmi/backrick.jpg);
+    margin: 0;
+}
+.smol {
+    width: 900px;
+    height: 900px;
+}
+
+@keyframes firstone {
+    0%   {left: 0%;  top: 30%;   background-size:100px 50px ;}
+    10%  {left: 5%;  top: 5%;    background-size:10px 20px ;}
+    20%  {left: 40%;  top: 20%;   background-size:50px 5px ;}
+    30%  {left: 50%; top: 10%;   background-size:500px 10px ;}
+    40%  {left: 6%;  top: 3%;    background-size:30px 50px ;}
+    50%  {left: 100%;  top: 40%; background-size:400px 20px ;}
+    60%  {left: 35%; top: 60%;   background-size:200px 30px ;}
+    70%  {left: 5%;  top: 5%;    background-size:40px 10px ;}
+    80%  {left: 72%; top: 75%;   background-size:400px 50px ;}
+    90%  {left: 10%; top: 55%;   background-size:10px 20px ;}
+    100% {left: 0%;  top: 30%;   background-size:400px 50px ;} 
+}
+
+.numberone {
+    position: absolute;
+    background-image: url(../gmi/rick5.png);
+    animation: firstone 5s infinite;
+    height: 50px;
+    width: 400px;
+    background-size: 400px 50px;
+    z-index: 1;
+}
+
+@keyframes secondone {
+    0%   {left: 50%; top: 30%; background-size:50px 50px ;}
+    10%  {left: 20%; top: 40%; background-size:10px 10px ;}
+    20%  {left: 10%; top: 99%; background-size:50px 5px ;}
+    30%  {left: 50%; top: 0%;  background-size:200px 200px ;}
+    40%  {left: 26%; top: 30%; background-size:5px 5px ;}
+    50%  {left: 99%; top: 90%; background-size:1000px 20px ;}
+    60%  {left: 35%; top: 99%; background-size:10px 50px ;}
+    70%  {left: 10%; top: 10%; background-size:20px 40px ;}
+    80%  {left: 40%; top: 45%; background-size:50px 50px ;}
+    90%  {left: 5%;  top: 55%; background-size:50px 10px ;}
+    100% {left: 0%;  top: 99%; background-size:5px 5px ;}     
+}
+
+.numbertwo{
+    position: absolute;
+    background-image: url(../gmi/rick2.jpg);
+    animation: secondone 1s infinite;
+    height: 50px;
+    width: 50px;
+    background-size: 50px 50px;
+    z-index: 10;
+}
+
+@keyframes leaving {
+    0% {left: 0%; top: 0%; background-image: 400px 800px;}
+    100% {left: 100%; top: 100%; background-image: 400px 800px;}
+}
+
+.numberthree {
+    position: absolute;
+    background-image: url(../gmi/rick9.jpg);
+    z-index: 1;
+    width: 400px;
+    height: 800px;
+    animation: leaving 5s;
+    background-image: 400px 800px;
+}
+
+@keyframes fourthone {
+        0%   {left: 50%; top: 30%;}
+        10%  {left: 20%; top: 40%;}
+        20%  {left: 10%; top: 99%;}
+        30%  {left: 50%; top: 0%; }
+        40%  {left: 26%; top: 30%;}
+        50%  {left: 99%; top: 90%;}
+        60%  {left: 35%; top: 99%;}
+        70%  {left: 10%; top: 10%;}
+        80%  {left: 40%; top: 45%;}
+        90%  {left: 5%;  top: 55%;}
+        100% {left: 0%;  top: 99%;} 
+}
+
+.numberfour {
+    position: absolute;
+    background-image: url(../gmi/rick3.png);
+    width: 200px;
+    height: 200px;
+    background-size: 200px 200px;
+    animation: fourthone 0.25s infinite;
+}
+
+@keyframes fifthone {
+    
+}
+@keyframes sixthone {
+    
+}
+@keyframes seventhone {
+    
+}
+@keyframes eightone {
+    
+}
+@keyframes ninthone {
+    
+}
+

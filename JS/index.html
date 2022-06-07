@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Yamaev task</title>
+</head>
+<script src="./assets/sj/script.js"></script>
+<body class="site">
+    <div class="landing">
+        <header>
+            <div class="namebox">
+                <div class="title">HELP</div>
+                <div class="title">ME</div>
+            </div>
+            <div class="contentbox">
+                <div class="BoC">WE ARE</div>
+                <div class="BoC">ALL DOOMED</div>
+                <div class="BoC">AND IT'S</div>
+                <div class="BoC">YOUR FAULT</div>
+            </div>
+        </header>
+        <div class="collage">
+            <div class="look"></div>
+            <div class="dog"></div>
+            <div class="yes"></div>
+            <div class="Yes"></div>
+            <div class="YEs"></div>
+            <div class="YES"></div>
+            <div class="now_u_c"></div>
+        </div>
+    </div>
+    <p onclick="ru()" class="goshabox">Поставить 2</P>
+        <script>
+        let anime = setInterval(frame, 10)
+        let width = 0
+        function frame() {
+            if(width < 1300){
+                width++
+            }
+            else{
+                stop;
+            }
+        let block = document.getElementsByTagName('p')[0]
+        block.style.width = width + "px"
+        }
+        </script>
+</body>
+</html>
